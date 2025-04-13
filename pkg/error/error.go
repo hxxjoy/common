@@ -3,7 +3,6 @@ package errors
 
 import (
     "fmt"
-    "net/http"
 )
 
 // ErrorCode 错误码
