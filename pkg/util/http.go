@@ -1,5 +1,5 @@
 // common/util/response.go
-package http
+package util
 
 import (
 	"net/http"
