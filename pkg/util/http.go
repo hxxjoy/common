@@ -32,7 +32,7 @@ func HttpError(w http.ResponseWriter, message string) {
 	})
 }
 
-func Send(w http.ResponseWriter, err error, data interface{}) {
+func HttpSend(w http.ResponseWriter, err error, data interface{}) {
 	if err != nil {
 		// 错误响应
 		httpx.OkJson(w, &Response{
